@@ -1,0 +1,10 @@
+# ECG datasets
+mit-bih-arrhythmia-database-1.0.0/
+data/
+
+# Python
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
