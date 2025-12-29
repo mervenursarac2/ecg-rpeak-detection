@@ -5,7 +5,7 @@ from src.load_data import load_ecg_record
 from src.filtering import apply_bandpass_filter
 from src.model import ECGModel
 
-def predict_and_visualize(record_id='212'):
+def predict_and_visualize(record_id='119'):
     # 1. Modeli Yükle
     model = ECGModel()
     # Modelin ağırlıklarını dosyadan oku
@@ -87,4 +87,4 @@ def predict_and_visualize(record_id='212'):
     print(f"Analiz Tamamlandı. Gerçek Tepe: {len(true_peaks_in_range)}, Bulunan Tepe: {len(detected_peaks)}")
 
 if __name__ == "__main__":
-    predict_and_visualize('212')
+    predict_and_visualize('119')
