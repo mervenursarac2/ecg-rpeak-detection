@@ -1,12 +1,9 @@
 # ❤️ AI Tabanlı EKG R-Peak Tespit Sistemi
 
-Bu proje, Derin Öğrenme (1D-CNN) kullanarak EKG sinyallerindeki R-tepelerini (kalp atış anlarını) yüksek doğrulukla tespit eden uçtan uca bir sistemdir. MIT-BIH Arritmi veritabanı kullanılarak eğitilmiştir.
-
-## 🚀 Öne Çıkan Özellikler
+Bu proje, Derin Öğrenme kullanarak EKG sinyallerindeki R-tepelerini yüksek doğrulukla tespit eden bir sistemdir. MIT-BIH Arritmi veritabanı kullanılarak eğitilmiştir.
 
 * **1D-CNN Mimarisi:** Zaman serisi verileri için optimize edilmiş evrişimli sinir ağı.
 * **Gelişmiş Sinyal İşleme:** 5-15 Hz Bandpass filtreleme ile gürültü temizleme.
-* **Koordinat İyileştirme:** Model tahminlerini en sivri noktaya veya başlangıç anına (onset) çeken post-processing algoritması.
 * **Klinik Metrikler:** Precision, Recall ve F1-Score üzerinden detaylı performans analizi.
 * **Gradio Arayüzü:** Kullanıcı dostu, interaktif web arayüzü ile anlık analiz.
 
