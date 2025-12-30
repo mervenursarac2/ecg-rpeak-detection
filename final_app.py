@@ -175,7 +175,7 @@ with gr.Blocks(theme=gr.themes.Soft(), title="EKG AI Analiz") as demo:
 
     with gr.Tab("Genel Başarı Raporu"):
         gr.Markdown("### Modelin Genel Yeteneği\nTest setindeki tüm kayıtlar taranarak toplu başarı ölçülür.")
-        btn_eval = gr.Button("Tüm Test Setini Çalıştır (%80 Eğitim dışı)", variant="stop")
+        btn_eval = gr.Button("Tüm Test Setini Çalıştır", variant="stop")
         eval_output = gr.Textbox(label="Global Performans Verileri", lines=10)
 
     btn_single.click(single_record_analysis, record_input, [plot_output, text_output])
